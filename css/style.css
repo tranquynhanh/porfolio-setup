@@ -21,9 +21,9 @@ body {
   padding-left: 0;
 }
 
-h1,
-h2,
-h3 {
+.heading .heading__intro,
+.heading .heading__name,
+.heading .heading__subtitle {
   text-align: center;
   margin: 0;
 }
@@ -38,6 +38,7 @@ h3 {
     font-size: 36px;
     line-height: 54px;
     font-weight: 700;
+    padding: 0;
 }
 
 .heading .heading__name {
@@ -53,7 +54,7 @@ h3 {
     font-size: 24px;
 }
 
-p {
+.heading p {
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -82,4 +83,59 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.project-description {
+    padding: 30px 60px;
+}
+
+.content img {
+    width: 560px;
+    height: 560px;
+}
+
+.content h2 {
+    font-family: var(--default-font);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 85.31px;
+    margin-bottom: 55px;
+}
+
+.content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #272142;
+    opacity: 0.7;
+}
+
+.content a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 18px 30px;
+    margin-top: 50px;
+    border-radius: 4px;
+}
+
+@media (max-width:900px) {
+    .heading {
+        padding: 80px 20px;
+    }
+
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
+
+    .heading .heading__name {
+        font-size: 60px;
+        line-height: 1.5;
+    }
+    .content h2 {
+        font-size: 44px;
+    }
 }
