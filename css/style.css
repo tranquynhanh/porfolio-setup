@@ -31,7 +31,7 @@ body {
 .heading {
     text-align: center;
     background-color: var(--secondary-color);
-    padding: 160px 20px;
+    padding: 80px 20px;
 }
 
 .heading .heading__intro {
@@ -133,7 +133,7 @@ body {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -226,17 +226,14 @@ footer .social-links a {
   transition: all 100ms ease-in-out; 
 }
 
-h4 {
-  font-size: 48px;
-}
-
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 60px;
   border-radius: 10px;
 }
 
-footer .contact-box h4 {
+footer .contact-box h3 {
+  font-size: 48px;
   font-family: var(--default-font);
 }
 
@@ -252,6 +249,12 @@ footer .contact-box p {
 footer .social-links a:hover {
   color: white;
   background-color: var(--primary-color);
+}
+
+footer .theEnd {
+  border: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width:900px) {
@@ -275,7 +278,7 @@ footer .social-links a:hover {
       font-size: 12px;
     }
 
-    h4 {
+    footer .contact-box h3 {
       font-size: 26px;
     }
 }
