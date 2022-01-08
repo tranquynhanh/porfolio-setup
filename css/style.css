@@ -157,6 +157,10 @@ body {
   font-size: 14px;
 }
 
+.content .text-left {
+  text-align: left;
+}
+
 @media (max-width:900px) {
     .heading {
         padding: 80px 20px;
@@ -184,6 +188,10 @@ body {
 
   .content .theFace {
     padding-left: 0;
+  }
+
+  .content .text-left {
+    text-align: center;
   }
 }
 
