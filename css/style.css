@@ -161,6 +161,99 @@ body {
   text-align: left;
 }
 
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--primary-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .email-link, footer .social-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links {
+  margin-top: 45px;
+} 
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out; 
+}
+
+h4 {
+  font-size: 48px;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+footer .contact-box h4 {
+  font-family: var(--default-font);
+}
+
+footer .contact-box a {
+  color: white;
+  margin: 15px 0;
+}
+
+footer .contact-box p {
+  margin-bottom: 0;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
 @media (max-width:900px) {
     .heading {
         padding: 80px 20px;
@@ -177,6 +270,13 @@ body {
     }
     .content h2 {
         font-size: 44px;
+    }
+    .nav a {
+      font-size: 12px;
+    }
+
+    h4 {
+      font-size: 26px;
     }
 }
 
